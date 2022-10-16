@@ -1,0 +1,10 @@
+title: NPM packages for GraphQL Server
+selectedAt: 2022-10-16
+packages:
+  - name: apollo-server-express
+    comment: |
+      Quite normal, but best right now.
+  - name: @graphql-yoga/common
+  - name: express-graphql
+  - name: mercurius
+  - name: graphql-helix

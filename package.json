@@ -21,6 +21,17 @@
     "url": "https://github.com/HiromiShikata/libraries-comparator/issues"
   },
   "homepage": "https://github.com/HiromiShikata/libraries-comparator#readme",
+  "release": {
+    "plugins": [
+      "@semantic-release/commit-analyzer",
+      "@semantic-release/release-notes-generator",
+      "@semantic-release/changelog",
+      "@semantic-release/git"
+    ],
+    "branches": [
+      "main"
+    ]
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.1.2",
     "@commitlint/config-conventional": "^17.1.0",
